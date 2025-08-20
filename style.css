@@ -32,7 +32,7 @@ p:last-child { margin-bottom: 0; }
 .header { position: fixed; top: 0; left: 0; width: 100%; z-index: 1000; background-color: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); transition: background-color 0.3s, box-shadow 0.3s; }
 .header.scrolled { background-color: rgba(255, 255, 255, 0.98); box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); }
 .header-container { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto; padding: 0 20px; height: 70px; }
-.header-logo, .footer-logo { font-family: var(--font-family-en); font-weight: 700; font-size: 1.4rem; color: var(--primary-color); }
+.header-logo img { height: 35px; }
 .header-nav ul { display: flex; list-style: none; margin: 0; padding: 0; gap: 30px; align-items: center; }
 .header-nav a { font-weight: 700; font-size: 0.9rem; color: var(--text-color); }
 .contact-button-nav { background: var(--accent-color); color: var(--text-light-color); padding: 8px 20px; border-radius: 50px; }
@@ -40,7 +40,7 @@ p:last-child { margin-bottom: 0; }
 .hamburger-menu { display: none; z-index: 1500; }
 
 /* --- メインビジュアル --- */
-.hero { padding-top: 70px; height: 70vh; min-height: 450px; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--text-light-color); background-image: linear-gradient(rgba(25, 118, 210, 0.7), rgba(0, 121, 107, 0.6)), url('https://images.unsplash.com/photo-1538688423619-a8341c2454b5?q=80&w=1974&auto=format&fit=crop'); background-size: cover; background-position: center; }
+.hero { padding-top: 70px; height: 70vh; min-height: 450px; display: flex; align-items: center; justify-content: center; text-align: center; color: var(--text-light-color); background-image: linear-gradient(rgba(25, 118, 210, 0.7), rgba(0, 121, 107, 0.6)), url('30051024_s.jpg'); background-size: cover; background-position: center; }
 .hero-content { max-width: 800px; padding: 0 20px; }
 .hero-title { font-size: 2.8rem; font-weight: 700; line-height: 1.4; margin: 0 0 20px; text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); }
 .hero-subtitle { font-size: 1.1rem; font-weight: 400; text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); max-width: 700px; margin: 0 auto; }
